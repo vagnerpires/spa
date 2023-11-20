@@ -16,7 +16,7 @@ function App() {
            <Route path="/products" element = {<Products />} />
            <Route path="/contact" element = {<Contact />} />
            <Route path="*" element = { <PageNotFound /> } />
-       </Routes>
+       </Router>
     <Footer />
    </Router>
   );
