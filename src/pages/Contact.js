@@ -13,8 +13,8 @@ const Contact = () => {
 
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium animi porro excepturi quam est iure enim, veniam repudiandae doloribus nemo eius necessitatibus ex architecto eligendi dignissimos nobis et minima tenetur?</p>
 
-                <p>This is a link to the <a href="./">Home</a> page.</p>
-                <p>This is a link to the <a href="./products">Products</a> page.</p>
+                <p>This is a link to the <a href="./spa">Home</a> page.</p>
+                <p>This is a link to the <a href="./spa/products">Products</a> page.</p>
            
             </section>
         </>

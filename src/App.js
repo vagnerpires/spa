@@ -9,12 +9,12 @@ import "./App.css";
 
 function App() {
   return (
-   <Router>
+    <Router basename = {process.env.PUBLIC_URL} >
     <Navbar />
        <Routes>
-           <Route path="/" element = {<Home />} />
-           <Route path="/products" element = {<Products />} />
-           <Route path="/contact" element = {<Contact />} />
+           <Route path="/spa" element = {<Home />} />
+           <Route path="/spa/products" element = {<Products />} />
+           <Route path="/spa/contact" element = {<Contact />} />
            <Route path="*" element = { <PageNotFound /> } />
        </Routes>
     <Footer />
