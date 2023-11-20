@@ -15,9 +15,9 @@ const PageNotFound = () => {
     <section class="w-820px">
 
         <p>Sorry, this page does not exist.</p>
-        <p>Return to the website <a href="/spa">Home</a> page.</p>
+        <p>Return to the website <a href="/">Home</a> page.</p>
 
-        <p>Return to the website <Link to="/spa">Home</Link> page.</p>
+        <p>Return to the website <Link to="/">Home</Link> page.</p>
     </section>
     </>
   );
